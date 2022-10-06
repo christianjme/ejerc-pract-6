@@ -1,0 +1,79 @@
+:root {
+  --color-primary: #f7df1e;
+  --container-max-width: 1200px;
+  --font-family: sans-serif;
+}
+
+html{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: var(--font-family);
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+.title{
+  text-align: center;
+  background-color: var(--color-primary);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 1rem 0;
+  color: #000;
+}
+
+/* .theme{
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  font-size: 2rem;
+  padding: 1rem;
+  background-color: #000;
+  border-radius: 50%;
+  cursor: pointer;
+  color: var(--color-primary);
+}
+.theme--dark{
+  background-color: var(--color-primary);
+  color: #000;
+}
+.theme i{
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+.theme-dark{
+  background-color: #000;
+  color: var(--color-primary);
+}
+.theme-light{
+  background-color: #fff;
+  color: #000;
+} */
+
+
+.dark-theme-btn{
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  width: 4rem;
+  height: 4rem;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  font-size: 2rem;
+  background-color: #000;
+  cursor: pointer;
+  color: var(--color-primary);
+}
+
+/* .dark-theme-btn:hover{
+  background-color: var(--second-color);
+  color: var(--main-color);
+} */
+
+.dark-mode{
+  background-color: #000;
+  color: var(--color-primary);
+}
